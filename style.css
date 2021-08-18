@@ -1,0 +1,71 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: #FFC300;
+    margin-top: 2em;
+  }
+  .redMe{
+    background-color: red;
+  }
+
+  #content{
+    align-items: center;
+  }
+
+  #player{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+#win_dec{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: white;
+  }
+  
+  h2 {
+     margin-top: 20px;
+     color: white;
+  }
+  
+table{
+  table-layout: fixed;
+  width: 400px;  
+  height: 400px;
+  margin-left: auto;
+   margin-right: auto;
+}
+
+  table ,tr ,td{
+    border: 5px solid white;
+    border-collapse: collapse;
+  }
+
+
+ table tr td{
+  cursor: pointer;
+ }
+ .tdTable{
+   width:133.33px;
+   height: 133.33px;
+ }
+
+ button{
+   margin-top: 50px;
+   width: 75px;
+   height: 40px;
+   cursor: pointer;
+ }
+
+
+ button:hover {
+  cursor: pointer;
+}

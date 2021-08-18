@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vara's Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+    <h1>Welcome to TIC TAC TOE game</h1>
+    <div>
+        <div id="player">
+               <h2 class="redMe" id="pOne">Player One - X </h2>
+               <h2 id="pTwo">Player Two - O </h2>
+        </div>
+        <div ><h1 id="win_dec"></h1></div>
+        <div id="myTable">
+            <table>
+                <tr>
+                    <td class="tdTable" id="b1_1" onclick="myFunc('b1_1')"></td>
+                    <td class="tdTable" id="b1_2" onclick="myFunc('b1_2')"></td>
+                    <td class="tdTable" id="b1_3" onclick="myFunc('b1_3')"></td>
+                </tr>
+                <tr>
+                    <td class="tdTable" id="b2_1" onclick="myFunc('b2_1')"></td>
+                    <td class="tdTable" id="b2_2" onclick="myFunc('b2_2')"></td>
+                    <td class="tdTable" id="b2_3" onclick="myFunc('b2_3')"></td>
+                </tr>
+                <tr>
+                    <td class="tdTable" id="b3_1" onclick="myFunc('b3_1')"></td>
+                    <td class="tdTable" id="b3_2" onclick="myFunc('b3_2')"></td>
+                    <td class="tdTable" id="b3_3" onclick="myFunc('b3_3')"></td>
+                </tr>
+            </table>
+        </div>
+        <button onclick="reset()">Reset</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
